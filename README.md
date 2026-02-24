@@ -47,17 +47,15 @@ O projeto foi executado através das seguintes etapas:
 
 Durante a análise exploratória, os principais insights descobertos foram:
 
-> **1. Volume x Qualidade**
+> **1. Volume x Qualidade**:
 Países com a maior quantidade de restaurantes registados não possuem, necessariamente, a maior nota média geral, ou seja, a qualidade dos serviços e culinária oferecida em cada região não depende, necessariamente, da expansão da cultura gastronômica.
-> 
+
 
 > **2. Serviços**
 Cidades onde os restaurantes oferecem maior infraestrutura de reservas e delivery tendem a ter um volume de avaliações significativamente maior, mostrando que a conveniência atrai e retém o utilizador na plataforma.
-> 
 
 > **3. Culinárias de nichos e Culinárias populares**
 Existem culinárias de nicho, que possuem um ticket médio alto e uma altíssima taxa de aprovação, enquanto culinárias mais populares, como fast foods, têm um volume alto de votos, mas notas médias de avaliação menores. Esse insight que pode gerar marketings direcionados de forma mais fácil para cada uma das formas de culinária.
-> 
 
 ---
 
