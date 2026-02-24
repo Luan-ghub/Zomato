@@ -247,7 +247,7 @@ def home():
             df_filtros = df_filtros[df_filtros["restaurant_name"].str.contains(sel_texto, case=False, na=False)]
         
         
-    st.title("Fome Zero Dashboard")
+    st.title("Zomato Dashboard")
     st.markdown("### Métricas Gerais")
 
 #----------------------------------------------
