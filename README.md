@@ -1,4 +1,4 @@
-# 🍽️ Fome Zero (Zomato) - Dashboard Estratégico
+# Dashboard Zomato
 
 ## 1. O Problema de Negócio
 
