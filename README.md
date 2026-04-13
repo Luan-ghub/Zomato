@@ -4,20 +4,20 @@
 
 ## 1. O Problema de Negócio
 
-**O que é o Zomato?**
+**Zomato**
 O Zomato é uma empresa multinacional que atua como um portal de pesquisa de restaurantes e serviço de entrega de comida. O seu modelo de negócio funciona como um marketplace que liga clientes e restaurantes parceiros, rentabilizando através de taxas de comissão e publicidade.
 
-**O Dataset**
-O conjunto de dados utilizado neste projeto contém informações detalhadas sobre restaurantes registados na plataforma em várias partes do mundo. Inclui dados de localização (país, cidade, coordenadas geográficas), características do serviço (se faz entregas, se aceita reservas), tipos de culinária oferecida, custos médios e avaliações dos clientes (notas e total de votos).
+**Dataset**
+O conjunto de dados utilizado neste projeto contém informações detalhadas sobre restaurantes registados na plataforma em várias partes do mundo. Inclui dados de localização , características do serviço, tipos de culinária oferecida, custos médios e avaliações dos clientes.
 
 **Objetivo**
 Através dos dados do Zomato, é possível entender o comportamento do mercado gastronómico global, identificar tendências de consumo e mapear o desempenho de restaurantes e culinárias por região.
-Simulando a atuação como um Cientista de Dados da empresa, o meu papel foi processar esta base de dados e desenvolver um dashboard com KPIs e visualizações estratégicas. O objetivo era fornecer respostas a um CEO sobre possíveis métricas do negócio, focando em diferentes visões do negócio.
+O meu papel foi processar esta base de dados e desenvolver um dashboard com KPIs e visualizações estratégicas com objetivo de fornecer respostas a um CEO sobre possíveis métricas, focando em diferentes visões do negócio.
 O resultado foi um Dashboard interativo, totalmente funcional na web, que permite a navegação e filtragem de dados em três níveis de granularidade: Países, Cidades e Restaurantes/Culinárias.
 
 ---
 
-## 2. Premissas do Negócio
+## 2. Premissas
 
 Para a construção deste projeto, foram adotadas as seguintes premissas:
 
@@ -33,14 +33,14 @@ Para a construção deste projeto, foram adotadas as seguintes premissas:
 
 O projeto foi executado através das seguintes etapas:
 
-1. **Entendimento e Planeamento:** Levantamento das principais perguntas de negócio que precisavam de ser respondidas.
-2.  **Limpeza de Dados:**
+1. **Planeamento:** Levantamento das principais perguntas de negócio que precisavam de ser respondidas.
+2.  **ETL:**
     - Tratamento de valores nulos;
     - Padronização de nomes de colunas;
     - Feature Engineering
-3. **Análise Exploratória (EDA):** Criação de protótipos de gráficos no Jupyter Notebook usando a biblioteca *Plotly* para validar as respostas e hipóteses levantadas.
+3. **Análise Exploratória:** Criação de protótipos de gráficos no Jupyter Notebook.
 4. **Desenvolvimento do Dashboard:**
-    - Estruturação do código `.py` separados (`paises.py`, `cidades.py`, `restaurantes.py`) para organização;
+    - Estruturação do código;
     - Finalização do código voltado ao Streamlit, para fornecer um dashboard interativo e portável para Web.
 
 ---
@@ -52,16 +52,15 @@ Durante a análise exploratória, os principais insights descobertos foram:
 > **1. Volume x Qualidade**:
 Países com a maior quantidade de restaurantes registados não possuem, necessariamente, a maior nota média geral, ou seja, a qualidade dos serviços e culinária oferecida em cada região não depende, necessariamente, da expansão da cultura gastronômica.
 
-
 > **2. Serviços**
 Cidades onde os restaurantes oferecem maior infraestrutura de reservas e delivery tendem a ter um volume de avaliações significativamente maior, mostrando que a conveniência atrai e retém o utilizador na plataforma.
 
 > **3. Culinárias de nichos e Culinárias populares**
-Existem culinárias de nicho, que possuem um ticket médio alto e uma altíssima taxa de aprovação, enquanto culinárias mais populares, como fast foods, têm um volume alto de votos, mas notas médias de avaliação menores. Esse insight que pode gerar marketings direcionados de forma mais fácil para cada uma das formas de culinária.
+Existem culinárias de nicho, que possuem um ticket médio alto e uma altíssima taxa de aprovação, enquanto culinárias mais populares, como fast foods, têm um volume alto de votos, mas notas médias de avaliação menores.
 
 ---
 
-## 5. O Produto Final do Projeto
+## 5. Projeto
 
 O produto final é um Dashboard Interativo no Streamlit, acessível a partir de qualquer navegador através do Streamlit Cloud.
 
